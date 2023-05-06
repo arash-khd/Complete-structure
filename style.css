@@ -176,6 +176,11 @@ nav.menu ul li a {
 
 /* example classes */
 
+/* you can remoe all */
+
+.sliders {
+display:flex;
+}
 .sliders .slider {
 width: 23%;
 background: #fff;
@@ -183,10 +188,11 @@ margin: 10px;
 box-shadow: 0 0 10px 1px #dfe0e0;
 border-bottom: 3px solid #e2e2e2;
 height: 100px;
-float:right;
 text-align: center;
 }
-
+.top-posts {
+	display:flex;
+}
 .top-posts .top-post {
   width: 23%;
 background: #fff;
@@ -194,7 +200,6 @@ margin: 10px;
 box-shadow: 0 0 10px 1px #dfe0e0;
 border-bottom: 3px solid #e2e2e2;
 height: 100px;
-float:right;
 text-align: center;
 
 }
